@@ -118,3 +118,51 @@ Use este código para executar todos os arquivos do banco de dados
  > php artisan migrate
 
 Digite 'Yes'
+
+# Laravel Herd
+
+As seguintes instruções se dirigem para a instalação do Laravel Herd e a criação de uma aplicação Laravel.
+
+----------
+
+## Requisitos
+
+-   Laravel Herd
+-   Composer
+-   Node.js
+-   NPM
+-   Visual Studio Code
+
+----------
+
+## Como instalar os requisitos
+
+Acesse o site oficial:
+[Laravel Herd](https://herd.laravel.com/windows?utm_source=chatgpt.com)
+Execute o instalador do Laravel Herd.
+
+O Laravel Herd irá instalar automaticamente:
+
+-   PHP
+-   Composer
+-   Laravel Installer
+-   DNS local
+-   Serviços necessários para rodar aplicações Laravel
+
+# Criação de um projeto com Herd
+Execute o Herd como administrador para que não tenham problemas na criação de arquivos.
+
+### Configuração do PHP
+---
+- Va na aba da esquerda e procure por **PHP**
+- Instale a versão mais recente
+---
+- Após isso vá até a aba **Sites** e procure por um botão escrito **+Add**
+- Selecione a opção para criar um projeto Laravel novo. 
+- Escolha o kit que deseja utilizar na criação do projeto
+>Selecionar a opção de não utilizar nenhum kit criara o projeto de acordo com o padrão do Laravel
+- Insira o nome do projeto
+- Escolha o framework que deseja
+- Caso o projeto não esteja na pasta desejada, troque a pasta de destino na parte de baixo da janela
+
+Com isso o projeto esta pronto para ser criado e alterado.
